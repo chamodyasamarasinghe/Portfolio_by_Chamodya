@@ -1,0 +1,84 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F3F8;
+}
+
+header {
+    background-color: #2C3268;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: roboto;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #313030;
+    font-family: open sans;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2C3268;
+    color: #fff;
+}
+
+/* Add this CSS to create a two-column layout using CSS Grid */
+
+.education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.education-item {
+    padding: 10px;
+    border: 1px solid #a7a4a4;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: #2C3268;
+    background-color: #e7f2fa;
+}
